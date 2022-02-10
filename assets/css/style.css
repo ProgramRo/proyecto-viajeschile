@@ -1,0 +1,41 @@
+.bg-navbar {
+    background: rgba(2, 0, 36, 0.452);
+}
+body {
+    background-color: #FFE4C4;
+}
+hr {
+    height: 1px;
+    background: #8B4513;
+}
+.bg-somos {
+    background-color: #8B4513;
+}
+.card-img-top {
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+}
+.bg-article-1 {
+    background-color: #DEB887;
+}
+.card-body {
+    background-color: #FFE4C4;
+    color: #1F100A;
+}
+.btn-light {
+    background-color: #1F100A;
+    color: #FFE4C4;
+}
+.bg-footer {
+    background-color: #1F100A;
+}
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+}
+.titulo-footer {
+    color: #FFE4C4;
+}
+i {
+    color: #FFE4C4;
+}
