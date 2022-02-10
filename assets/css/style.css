@@ -3,6 +3,7 @@
 }
 body {
     background-color: #FFE4C4;
+    font-family: 'Titillium Web', sans-serif;
 }
 hr {
     height: 1px;
@@ -10,6 +11,9 @@ hr {
 }
 .bg-somos {
     background-color: #8B4513;
+}
+.parrafo-diferente {
+    font-style: oblique;
 }
 .card-img-top {
     height: 400px;
@@ -36,6 +40,11 @@ h1 {
 .titulo-footer {
     color: #FFE4C4;
 }
-i {
+.footer-icon {
     color: #FFE4C4;
 }
+.img-modal {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }

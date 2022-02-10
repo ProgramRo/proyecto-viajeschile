@@ -24,18 +24,13 @@
 
 <body>
     <!-- Header -->
-    <header class="fixed-top bg-transparent">
+    <header class="fixed-top bg-navbar">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <nav class="navbar navbar-expand-lg navbar-dark">
-                        <a class="navbar-brand" href="#"><img src="assets/img/logos-page.png" width="40" height="45"
-                                class="align-middle" alt="Logo Viajes Chile" />Viajes Chile</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                        <a class="navbar-brand font-weight-bold align-middle" href="#"><img src="assets/img/logos-page.png" width="40" height="45" alt="Logo Viajes Chile" />Viajes Chile</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
@@ -43,13 +38,13 @@
                                             class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#sec-trabajos">Quiénes somos</a>
+                                    <a class="nav-link" href="#whoarewe">Quiénes somos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#sec-contacto">Destacados</a>
+                                    <a class="nav-link" href="#highlights">Destacados</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#sec-informacion">Contacto</a>
+                                    <a class="nav-link" href="#contact">Contacto</a>
                                 </li>
                             </ul>
                         </div>
@@ -110,7 +105,7 @@
     </div>
     <!-- Fin Carousel -->
     <!--Sección ¿Quiénes somos-->
-    <article>
+    <article id="whoarewe" class="d-sm-none d-md-block">
         <div class="container text-center mt-5">
             <h1 class="display-3 font-weight-bold">¿Quiénes somos?</h1>
             <hr>
@@ -140,7 +135,7 @@
                 <div class="col-12 col-sm-12 col-md-4">
                     <div class="my-4">
                         <div class="text-left">
-                            <p>
+                            <p class="parrafo-diferente">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias possimus voluptates ut
                                 iste non dolorem tenetur adipisci sapiente voluptate voluptatibus, ab ipsum perspiciatis
                                 officia repellendus maiores commodi exercitationem illum doloribus vero ratione nostrum
@@ -182,7 +177,7 @@
     </article>
     <!--Fin Sección ¿Quiénes somos-->
     <!--Sección Destacados-->
-    <article class="container-fluid py-2 bg-article-1">
+    <article id="highlights" class="container-fluid py-2 bg-article-1">
         <div class="container text-center mt-5">
             <h1 class="display-3 font-weight-bold">Destacados</h1>
             <hr>
@@ -193,11 +188,11 @@
                     <div class="card text mx-auto mb-4" style="width: 16rem;">
                         <img src="assets/img/card-1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Altiplano</h5>
+                            <h5 class="card-title font-weight-bold">Altiplano</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-light">¡Quiero conocer más!</a>
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#altiplano-1">¡Quiero conocer más!</button>
                             </div>
                         </div>
                     </div>
@@ -206,11 +201,11 @@
                     <div class="card text mx-auto mb-4" style="width: 16rem;">
                         <img src="assets/img/card-2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Altiplano</h5>
+                            <h5 class="card-title font-weight-bold">Altiplano</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-light">¡Quiero conocer más!</a>
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#altiplano-2">¡Quiero conocer más!</button>
                             </div>
                         </div>
                     </div>
@@ -219,11 +214,11 @@
                     <div class="card text mx-auto mb-4" style="width: 16rem;">
                         <img src="assets/img/card-3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Altiplano</h5>
+                            <h5 class="card-title font-weight-bold">Altiplano</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-light">¡Quiero conocer más!</a>
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#altiplano-3">¡Quiero conocer más!</button>
                             </div>
                         </div>
                     </div>
@@ -232,17 +227,18 @@
                     <div class="card text mx-auto mb-4" style="width: 16rem;">
                         <img src="assets/img/card-4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Altiplano</h5>
+                            <h5 class="card-title font-weight-bold">Altiplano</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-light">¡Quiero conocer más!</a>
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#altiplano-4">¡Quiero conocer más!</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    
     </article>
     <!--Fin Sección Destacados-->
     <!--Sección Contacto (form)-->
@@ -285,16 +281,114 @@
                 </div>
                 <div class="col-12 col-sm-6">
                     <div class="py-4">
-                        <span><a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github-square fa fa-4x"></i></a></span>
-                        <span class="pl-2"><a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa fa-4x"></i></a></span>
-                        <span class="pl-2"><a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter-square fa fa-4x"></i></a></span>
-                        <span class="pl-2"><a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-square fa fa-4x"></i></a></span>
+                        <span><a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github-square fa fa-4x footer-icon"></i></a></span>
+                        <span class="pl-2"><a href="https://cl.linkedin.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa fa-4x footer-icon"></i></a></span>
+                        <span class="pl-2"><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter-square fa fa-4x footer-icon"></i></a></span>
+                        <span class="pl-2"><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-square fa fa-4x footer-icon"></i></a></span>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
     <!--Fin Sección Footer-->
+    <!--Inicio modals (componentes derivados de card)-->
+    <div class="modal fade" id="altiplano-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Desierto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img class="img-modal" src="assets/img/card-1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda illo quis, cupiditate sed cumque, corporis dicta delectus ullam iste, architecto qui blanditiis? Magni dicta expedita voluptatem harum temporibus debitis optio facere pariatur. Nulla rem dolores corporis in molestiae obcaecati debitis qui assumenda unde sequi. Recusandae natus animi amet tempore consectetur repudiandae aut repellat obcaecati, soluta ad labore quis est eaque culpa dolorum minima eveniet saepe nihil in ea architecto ratione adipisci dolor! Sapiente harum beatae officiis veniam eveniet fuga voluptates inventore maxime omnis, quae itaque sed nam iure accusamus reiciendis ab in, quod perspiciatis voluptatem. Sunt corrupti dignissimos libero vel?
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="altiplano-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Desierto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img class="img-modal" src="assets/img/card-2.jpg" alt="">
+                        </div>
+                        <div class="col-sm-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda illo quis, cupiditate sed cumque, corporis dicta delectus ullam iste, architecto qui blanditiis? Magni dicta expedita voluptatem harum temporibus debitis optio facere pariatur. Nulla rem dolores corporis in molestiae obcaecati debitis qui assumenda unde sequi. Recusandae natus animi amet tempore consectetur repudiandae aut repellat obcaecati, soluta ad labore quis est eaque culpa dolorum minima eveniet saepe nihil in ea architecto ratione adipisci dolor! Sapiente harum beatae officiis veniam eveniet fuga voluptates inventore maxime omnis, quae itaque sed nam iure accusamus reiciendis ab in, quod perspiciatis voluptatem. Sunt corrupti dignissimos libero vel?
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="altiplano-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Desierto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img class="img-modal" src="assets/img/card-3.jpg" alt="">
+                        </div>
+                        <div class="col-sm-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda illo quis, cupiditate sed cumque, corporis dicta delectus ullam iste, architecto qui blanditiis? Magni dicta expedita voluptatem harum temporibus debitis optio facere pariatur. Nulla rem dolores corporis in molestiae obcaecati debitis qui assumenda unde sequi. Recusandae natus animi amet tempore consectetur repudiandae aut repellat obcaecati, soluta ad labore quis est eaque culpa dolorum minima eveniet saepe nihil in ea architecto ratione adipisci dolor! Sapiente harum beatae officiis veniam eveniet fuga voluptates inventore maxime omnis, quae itaque sed nam iure accusamus reiciendis ab in, quod perspiciatis voluptatem. Sunt corrupti dignissimos libero vel?
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="altiplano-4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Desierto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img class="img-modal" src="assets/img/card-4.jpg" alt="">
+                        </div>
+                        <div class="col-sm-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda illo quis, cupiditate sed cumque, corporis dicta delectus ullam iste, architecto qui blanditiis? Magni dicta expedita voluptatem harum temporibus debitis optio facere pariatur. Nulla rem dolores corporis in molestiae obcaecati debitis qui assumenda unde sequi. Recusandae natus animi amet tempore consectetur repudiandae aut repellat obcaecati, soluta ad labore quis est eaque culpa dolorum minima eveniet saepe nihil in ea architecto ratione adipisci dolor! Sapiente harum beatae officiis veniam eveniet fuga voluptates inventore maxime omnis, quae itaque sed nam iure accusamus reiciendis ab in, quod perspiciatis voluptatem. Sunt corrupti dignissimos libero vel?
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Término de modals-->
     <!--JQuery local file 3.5.1-->
     <script src="assets/js/jquery-3.5.1.min.js"></script>
     <!--Bootstrap CDN Bundle 4.6.1 (includes Popper)-->
