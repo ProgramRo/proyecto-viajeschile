@@ -12,15 +12,9 @@ $(document).ready(function () {
         }
     });
     // End Smooth Scroll
-    // Activacion de Pop Over
-    $('[data-toggle="popover"]').popover()
-
+    //Intervalo carrusel de imágenes
     $('#carousel-inicial').carousel({
         interval: 5000
     
     });
-    //Modal
-    $('#myModal').on('shown.bs.modal', function () {
-        $('#myInput').trigger('focus')
-      })
 });
